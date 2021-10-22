@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    
+  
+    <link rel="preload" href="estilo.css" as="style">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Banco Provincia ejemplo</title>
+  
+   
+  
+  </head>
+  <body>
+    
+    <nav class="navbar fixed-top p-1">
+      
+        <div class="container">
+          <a class="navbar-brand p-1" href="index.html">
+            <img src="IMG/logo_2021_S.svg" height="37px">
+        </a>
+          <ul class=" list-unstyled d-none d-xl-inline-flex  d-flex flex-end  align-items-center ms-5 " >
+            <li class="nav-item m-3">
+              <a class="nav-link  "  href="#">Personas</a>
+            </li>
+            <li class="nav-item m-3">
+              <a class="nav-link " href="#">Empresas</a>
+            </li>
+            <li class="nav-item m-3">
+                <a class="nav-link " href="#">Turnos Web</a>
+              </li>
+              <button type="button" class="btn btn-outline-secondary d-none d-xl-inline-flex  ">Banca Internet Provincia</button>
+          </ul>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            
+            <div class="offcanvas-body">
+              <ul class="navbar-nav pe-3 ">
+                <li class="nav-item d-md-none">
+                  <a class="nav-link fw-bold" aria-current="page" href="#"><i class="bi bi-bank"></i> Banca Internet Provincia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="#"><i class="bi bi-person-circle"></i> Personas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#"><i class="bi bi-briefcase-fill"></i> Empresas</a>
+                </li>
+                <li class="nav-item d-none d-sm-none d-md-block ">
+                    <a class="nav-link fw-bold" href="#"><i class="bi bi-aspect-ratio-fill"></i> Canales</a>
+                  </li>
+                 
+                  <li class="nav-item fw-bold d-md-none ">
+                    <a class="nav-link " href="#"><i class="bi bi-calendar3"></i> Turnos web</a>
+                  </li>
+                  <li class="nav-item fw-bold d-md-none">
+                    <a class="nav-link " href="#"><i class="bi bi-question-lg"></i> Te ayudamos</a>
+                  </li>
+                  <li class="nav-item fw-bold d-md-none">
+                    <a class="nav-link " href="#"><i class="bi bi-geo-alt"></i> Sucursales y cajeros</a>
+                  </li>
+                  <li class="nav-item fw-bold d-md-none">
+                    <a class="nav-link " href="#"><i class="bi bi-newspaper"></i> Noticias</a>
+                  </li>
+                  <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#"><i class="bi bi-building"></i><strong> Institucional</strong> </a>
+                  </li>
+                  <li class="nav-item fw-bold d-md-none">
+                    <a class="nav-link " href="#"><i class="bi bi-building"></i> Boton de arrepentimiento</a>
+                  </li>
+                  <li class="nav-item fw-bold d-md-none">
+                    <a class="nav-link " href="#"><i class="bi bi-journals"></i> Contratos de adhesión</a>
+                  </li>
+              </ul>
+            <hr>
+              <div class="close d-flex align-items-baseline">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"> </button>
+              <p>Cerrar</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<div class="container">
+  
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+           <img src="IMG/novedades_madre_L.jfif">
+          </div>
+          <div class="swiper-slide">
+            <img src="IMG/novedades_echeq_L.jfif">
+          </div>
+          <div class="swiper-slide">
+            <img src="IMG/novedades_renueva_L.jfif">
+          </div>
+
+          <div class="swiper-slide">
+            <img src="IMG/comercios_alimentos_L.jfif">
+          </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+      
+      
+        <!-- If we need scrollbar -->
+       
+      </div>
+
+    </div>
+  
+ 
+  
+  <div class="container gx-4 dolar d-flex align-items-center align-content-center  justify-content-center">
+    <div class="row text-center">
+      <div class="col-md-3 col-6 order-sm-1 order-1 ">
+        <p class="cotizacion my-1  ">Cotizacion del dolar:</p>
+      </div>
+    <div class=" col-md-3 col-6 order-sm-2 order-3">
+      <p class="cotizacion my-1"><strong>Compra: $98,50</strong></p>
+    </div>
+    <div class=" col-md-3 col-6 order-sm-3 order-4">
+      <p class="cotizacion my-1"><strong>Venta: $104,50</strong></p>
+    </div>
+    <div class="col-md-3 col-6 order-sm-4 order-2">
+      <p class="cotizacion my-1">Ult. actualizacion:15:00</p>
+    </div>
+   
+  </div>
+</div>
+</div>
+
+<div class="container mt-5 mb-5 p-3">
+  <div class="row gx-4 gy-4">
+    <div class="col-md-3 col-sm-6">
+      <div class="card " >
+        <img src="IMG/productos_1_3.jfif" class="card-img-top" alt="...">
+        <div class="card-body__productos">
+          <h3 class="p-4 fw-bold">Prestamo Personal</h3>
+          <p class="card-text p-4">Pedí tu préstamo, 100% online, y usalo como quieras.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 ">
+      <div class="card">
+        <img src="IMG/productos_1_2.jfif" class="card-img-top" alt="...">
+        <div class="card-body__productos">
+          <h3 class="p-4 fw-bold">Adherí tu comercio a Cuenta DNI</h3>
+          <p class="card-text p-4">Potenciá tus ventas con una solución digital hecha a tu medida.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="IMG/productos_1_1.jfif" class="card-img-top" alt="...">
+        <div class="card-body__productos">
+          <h3 class="p-4 fw-bold">Nunca des tus datos</h3>
+          <p class="card-text p-4">Evitá ser víctima de Ingeniería social..</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="IMG/productos_1_4.jfif" class="card-img-top" alt="...">
+        <div class="card-body__productos">
+          <h3 class="p-4 fw-bold">Cambiamos la identidad visual</h3>
+          <p class="card-text p-4">De cara al Bicentenario, estrenamos nueva imagen y eslogan: “Acá se produce”..</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<section class="beneficios">
+<div class="container p-3">
+  <div class="row gx-4 gy-4">
+    <div class="col-md-6">
+      <div class="card">
+        <img src="IMG/beneficios_mesumo_400.jfif" class="card-img-top" alt="...">
+        <div class="card-body__beneficios">
+          <h3 class="p-4">Ahorrá todos los días con beneficios pensados para vos</h3>
+          <p class="card-text p-3">Comprá todo lo que necesites con tus tarjetas Banco Provincia.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <img src="IMG/beneficios_generico_400.jfif" class="card-img-top" alt="...">
+        <div class="card-body__beneficios">
+          <h3 class="p-4">Sumá puntos y obtené el premio que más te guste</h3>
+          <p class="card-text p-3">Podés canjear por productos de hogar y deco, electrodomésticos, experiencias y mucho más.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<div class="container p-3">
+  <div class="row gx-4 gy-4">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="IMG/productos_2_agropecuaria.jfif" class="card-img-top" alt="...">
+        <div class="card-body__relativo">
+          <h1 class="p-1 relativo">Procampo</h1>
+          <p class="card-text__relativo p-4">La tarjeta del productor/a agropecuario/a y contratista rural.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="IMG/productos_2_repyme.jfif" class="card-img-top" alt="...">
+        <div class="card-body__relativo">
+          <h1 class="p-1 relativo">Repyme</h1>
+          <p class="card-text__relativo p-4">Linea de creditos para construir el tejido productivo de la provincia.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="IMG/productos_2_inversiones.jfif" class="card-img-top__relativo" alt="...">
+        <div class="card-body__relativo">
+          <h1 class="p-1 relativo">Inversiones</h1>
+          <p class="card-text__relativo p-4">Encontra la mejor alternativa de inversion.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="footer p-3">
+  <div class="container">
+    <div class="row gx-4 gy-4">
+      <div class="col-md-3 col-sm-6 text-light">
+<h4>Ayudas y Guias</h4>
+<p>App Cuenta DNI<br>
+  Asesoramiento sobre deudas con atraso<br>
+  ATM personas con discapacidad visual<br>
+  Centro de seguridad</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-light">
+        <h4>Conocenos</h4>
+        <p>
+          Autoridades<br>
+Carta Orgánica<br>
+Organigrama<br>
+Estados financieros<br>
+Disciplina de Mercado<br>
+Gobierno Institucional<br>
+Prensa y Noticias<br>
+Trabajar en Banco Provincia
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-light">
+        <H4>Informacion Legal</H4>
+        <p>
+          
+Atención al Usuario de Servicios Financieros<br>
+Información al Usuario de Servicios Financieros<br>
+Régimen de transparencia del BCRA<br>
+Portal del Cliente Bancario<br>
+AlyC y AN Integral Matrícula N°43 de la CNV<br>
+Debida Diligencia<br>
+PEPs y Sujetos Obligados<br>
+Defensa al Consumidor<br>
+Protección de Datos Personales
+        </p>
+        
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-light">
+        <h4>Otros sitios de interes</h4>
+        <p>
+          Feriados locales<br>
+Compras y licitaciones<br>
+Oportunidades inmobiliarias<br>
+Grupo Provincia<br>
+Museo Banco Provincia<br>
+Cátedra Arturo Jauretche<br>
+Provincia Microcréditos<br>
+Fundación Banco Provincia<br>
+Buenos Aires Provincia<br>
+<br>
+        </p>
+       
+      </div>
+    <div class="row align-items-center">
+      <div class="col-md-6 d-flex justify-content-evenly text-light">
+    <p>Seguinos en:</p>
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-youtube"></i>
+      <i class="bi bi-linkedin"></i>
+    </div>
+
+   <div class="col-md-6">
+    <img src="IMG/sello-adhesion.svg" width="150px">
+    <img src="IMG/sello-ufi.svg" width="150px">
+    
+   </div>
+
+  </div>
+    <div class="col-12 mt-4 text-center footer-fin text-light">
+      <p class="mb-4">Términos y condiciones de navegabilidad de sitio web</p>
+
+      <p class="mb-5">© 2021 - Banco de la Provincia de Buenos Aires - Casa Matriz: Calle 7 N° 726 (B1900TFS) La Plata, Buenos Aires, Argentina.</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+ 
+    <!-- Optional JavaScript; choose one of the two! -->
+  
+   
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    
+ 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+   <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+-->
+  
+
+   
+  </body>
+</html>

@@ -1,0 +1,248 @@
+:root{
+    --bs-light: #f8f9fa;
+    --bs-secondary: #b2b8bd;
+    --negro:rgb(66, 65, 65);
+
+    
+}
+
+/**Globales**/
+body,html{
+    background-color: #EBEBEB;
+    font-family: "Encode Sans", sans-serif;
+    color: #3C3C3B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left; 
+}
+
+
+/**Nvageacion**/
+.navbar{
+    background-color:#EBEBEB ;
+    transition: all 0.6s;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    height: 100px;
+  }
+
+ 
+  
+
+.navbar-toggler:focus,
+   .navbar-toggler:active,
+   .navbar-toggler-icon:focus {
+   outline:none;
+   box-shadow:none;
+}
+
+
+.nav-link{
+    color: var(--negro);
+    font-weight: 400!important;
+}
+
+.nav-link:hover{
+    color: var(--bs-secondary)!important;
+}
+
+.btn-outline-secondary:hover{
+    
+    border-radius: 10px 5%;
+    background-color: transparent;
+    color: var(--bs-secondary);
+}
+
+.btn-outline-secondary{
+    border-radius: 10px 5%;
+    height: 35px;
+    text-align: center;
+
+}
+
+
+
+/**Slider**/
+.swiper {
+    width: 100%;
+    height: 350px;
+    margin-top: 110px;
+    border-radius: 10px 10px 0 0;
+  }
+@media (max-width:500px) {
+    .swiper{
+        margin-top: 80px;
+    }
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination-bullet-active{
+      background-color: var(--negro);
+  }
+
+
+  /**barra de cotizacion**/
+
+  .dolar{
+    background-color: var(--negro);
+    border-radius: 0 0 10px 10px;
+    color: white;
+    border:1px solid #3C3C3B ; 
+    width: auto;
+    
+    
+}
+
+
+
+@media (max-width:500px) {
+ .dolar,
+ .cotizacion{
+   
+    background-color:#EBEBEB;
+    color: black;
+}
+      }
+
+/**tarjetas-general**/
+  .card{
+      border-radius:10px 35px 10px 35px ;
+      border: none;
+      transition: 0.5s;
+}
+
+  .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 6px 15px 6px;
+}
+
+
+  .card-img-top{
+    border-radius:10px 35px 0 0;
+}
+
+  
+
+/** tarjetas-productos**/
+  
+.card-body__productos{
+    height: 250px;
+  }
+
+  /**fondo beneficios-tarjetas-beneficios**/
+  
+ .beneficios{
+    background-image: linear-gradient(-45deg, #279D2EFF, #25B4BDFF);
+  }
+ .card-body__beneficios{
+    background-color: var(--negro);
+    color: white;
+    border-radius: 0 0 10px 35px ;
+    height: 170px;
+}
+
+.badge-relativo{
+    position: relative;
+    margin-top:-150px;
+}
+ 
+/**Tarjeta Procampo-inversiones-propym**/
+
+ .relativo{
+     position: relative;
+     margin-top:-65px;
+     color: white;
+     font-weight: 400;
+     z-index: 100;
+ }
+ 
+ .card-img-top__relativo{
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.767);
+    z-index: 1;
+    border-radius:10px 35px 0 0;
+   
+ }
+
+
+ .card-body__relativo{
+    height:70px;
+    background-color:#EBEBEB ;
+    border-radius: 0 0 10px 35px ;
+}
+    
+   
+/**footer**/
+
+.footer{
+    background-color: var(--negro);
+}
+
+.footer-fin{
+    font-size: 14px;
+}
+
+
+
+.add-shadow{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+.navbar.shrink{
+  height: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+   
+}
+
+.offcanvas {
+   
+    transition: none;
+}
+
+.offcanvas-body{
+    background-color: #EBEBEB;
+    padding: 1.5rem 1.5rem;
+}
+
+@media (max-width:500px) {
+.offcanvas-body{
+    background-color: #EBEBEB;
+    padding: 1.5rem 1.5rem;
+}
+
+.offcanvas {
+    width: 65%;
+    transition: none;
+}
+    
+}
+
+
